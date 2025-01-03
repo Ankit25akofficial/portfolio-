@@ -15,6 +15,10 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
 
+const projectTitle = document.querySelector('.project-title');
+const driveLink = projectTitle.getAttribute('data-drive-link');
+console.log('Hidden Link:', driveLink);
+
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
